@@ -10,10 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://www.jitpack.io' }
     }
 }
 
 rootProject.name = "HelloSDK"
 include ':app'
 include ':mylibrary'
-include ':image-preview'
